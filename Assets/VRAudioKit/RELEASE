@@ -1,0 +1,147 @@
+vraudiokit-unity 0.4.0
+======================
+
+Additions
+---------
+
+- Add Android x86 support
+- Make C# API match those of the native SDK
+- Add VRAudioRoom component
+- Review HRTF and License file management
+
+Bug Fixes
+---------
+
+- Misc bug fixes in the audio engine.
+
+Known Issues
+------------
+
+- Audio rooms
+    As of today you can only create one audio room instance.
+
+- Audio sampling rate:
+    The plugin only supports the following output sample rates:
+      * 22050 Hz
+      * 32000 Hz
+      * 44100 Hz
+      * 48000 Hz
+
+vraudiokit-unity 0.3.1
+======================
+
+Additions
+---------
+
+- Add Licensing system support
+
+Known Issues
+------------
+
+- Android support:
+    Plugins are only available for ARMv7 abi.
+
+- Audio sampling rate:
+    The plugin only supports the following output sample rates:
+      * 22050 Hz
+      * 32000 Hz
+      * 44100 Hz
+      * 48000 Hz
+
+vraudiokit-unity 0.3.0
+======================
+
+Additions
+---------
+
+- Add an AppController class on iOS so that the plugin
+  no longer needs to be registered manually in the startup code
+  of the app at each build.
+
+- Add a custom assert importer to import cfga files (3D Sound Labs HRTFs)
+  as assets in Unity project and add an HRTF setting to the listener.
+
+Bug Fixes
+---------
+
+- Fixed a performance regression on Windows and iOS
+
+Known Issues
+------------
+
+- Android support:
+    Plugins are only available for ARMv7 abi.
+
+- Audio sampling rate:
+    The plugin only supports the following output sample rates:
+      * 22050 Hz
+      * 32000 Hz
+      * 44100 Hz
+      * 48000 Hz
+
+vraudiokit-unity 0.2.1
+======================
+
+Bug Fixes
+---------
+
+- The linux plugin can now be loaded correctly
+
+- Fixed a bug in the spatialization algorithm that caused sound glitches
+  when an audio source was moving fast
+
+- Spatialization is now correctly applied when an audio source is created
+  with its "Play On Awake" option set to false
+
+Known Issues
+------------
+
+- Android support:
+    Plugins are only available for ARMv7 abi.
+
+- Audio sampling rate:
+    The plugin only supports the following output sample rates:
+      * 22050 Hz
+      * 32000 Hz
+      * 44100 Hz
+      * 48000 Hz
+
+vraudiokit-unity 0.2.0
+======================
+
+Additions
+---------
+
+- Support for MacOS / IOS
+
+Known Issues
+------------
+
+- Android support:
+    Plugins are only available for ARMv7 abi.
+
+- Audio sampling rate:
+    The plugin only supports the following output sample rates:
+      * 22050 Hz
+      * 32000 Hz
+      * 44100 Hz
+      * 48000 Hz
+
+vraudiokit-unity 0.1.0
+======================
+
+Known Issues
+------------
+
+- MacOS / IOS support:
+    Plugins for MacOS, IOS are not yet available.
+
+- Android support:
+    Plugins are only available for ARMv7 abi.
+
+- Audio sampling rate:
+    The plugin only supports the following output sample rates:
+      * 22050 Hz
+      * 32000 Hz
+      * 44100 Hz
+      * 48000 Hz

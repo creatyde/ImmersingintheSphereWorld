@@ -1,0 +1,29 @@
+Pd 0.48.1. on win32
+Tcl/Tk 8.5.10
+------------------------------------------------------------------------------
+'pd-gui' connecting to 'pd' on localhost 5400 ...
+
+------------------ done with main ----------------------
+
+Tk 8.5.10
+
+Detected font: courier
+
+WARNING: Font family 'DejaVu Sans Mono' not found, using default (courier)
+
+Using font: courier bold
+
+Loading plugin: C:/Program Files (x86)/Pd/tcl/pd_deken.tcl
+
+[deken] Platform detected: Windows-i686-32bit
+
+
+Loading plugin: C:/Program Files (x86)/Pd/tcl/pd_docsdir.tcl
+
+[deken] Platform re-detected: Windows-i386-32bit
+
+
+The Pd window filtered 12 lines
+
+Pd documents directory: C:/Users/User/Documents/Pd
+
