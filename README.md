@@ -10,7 +10,7 @@ This project was created under the Frank-Ratchye Fund for Art @ the Frontier and
 
 ## Materials
 
-Created using Unity 2017.3.1.  Other materials include:
+Created using Unity 2017.3.1 and C#.  Other materials include:
 - Google Daydream + controller 
 - Android phone with >= Nougat
 - Electronics combining Arduino UNO with HC-06 and MPU-6050.
