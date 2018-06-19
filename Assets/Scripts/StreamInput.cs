@@ -1,6 +1,6 @@
 ﻿// C#
 // http://www.aidanlawrence.com/diy-arduino-unity-motion-controller/
-// using some of the Bluetooth/Unity code
+// using some of the TechTweaking/Bluetooth/Unity code
 
 using UnityEngine;
 using System.IO.Ports;
