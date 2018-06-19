@@ -23,3 +23,7 @@ Given that these materials are not readily available, the provided Unity project
 After git cloning and opening the project in Unity 2017.3.1, open Assets > Scenes > sphereworld6.unity.  Press play, and the main scene should run.
 
 The other scene, readButtons.unity, is the utility the "person-controller" uses.   The person-controller tell the pushers which direction to move the ball in physical space according to the desires of the viewer, who sees in VR space.
+
+## Contact
+
+If you would like to contact me, my email is creatyde@gmail.com.  I go by creatyde or Sydney, whichever you like.
